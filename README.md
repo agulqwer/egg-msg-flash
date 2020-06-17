@@ -53,6 +53,7 @@ see [config/config.default.js](config/config.default.js) for more detail.
 ## Example
 
 <!-- example here -->
+```
 ctx.flash = {
   type: 'success',
   message: {
@@ -72,7 +73,9 @@ ctx.request.flash(type, messaage)
 
 // get flash by
 
-ctx,flash
+ctx.flash
+```
+
 ## Questions & Suggestions
 
 Please open an issue [here](https://github.com/eggjs/egg/issues).
